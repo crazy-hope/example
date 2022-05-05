@@ -1,0 +1,55 @@
+.stepWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .stepTitle {
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: "GothamBlack";
+  }
+  .stepContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .stepBottomButtons {
+    margin-top: 100px;
+    > * {
+      margin: 0 10px;
+      font-family: "GothamBook";
+    }
+  }
+  .stepItem {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    span {
+      font-family: "GothamBlackItalic";
+      color: #7778f7;
+      transition: all 0.3s linear;
+    }
+    &:hover {
+      box-shadow: 0 0 10px rgba(#cccccc, 1);
+    }
+    &.active {
+      border-color: #7778f7;
+      box-shadow: 0 0 10px rgba(#7778f7, 1);
+      background: #7778f7;
+      color: #c0c4cc;
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+}

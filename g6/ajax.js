@@ -1,0 +1,1 @@
+var oAjax=new XMLHttpRequest();

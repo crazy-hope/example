@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GothamThin';
+    src: url('fonts/GothamThin.eot');
+    src: url('fonts/GothamThin.eot') format('embedded-opentype'),
+         url('fonts/GothamThin.woff2') format('woff2'),
+         url('fonts/GothamThin.woff') format('woff'),
+         url('fonts/GothamThin.ttf') format('truetype'),
+         url('fonts/GothamThin.svg#GothamThin') format('svg');
+}
